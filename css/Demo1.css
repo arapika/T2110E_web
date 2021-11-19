@@ -1,0 +1,20 @@
+h1{
+    color: orange;
+}
+p{
+    color: #002d2d;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-decoration: light;
+    text-transform: capitalize;
+    text-align: justify;
+    width: 650px;
+    background-color: aquamarine;
+}
+body{
+    background-color: cornsilk;
+}
+a{
+    color: rgb(211,232,312);
+}
