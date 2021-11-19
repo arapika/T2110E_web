@@ -1,20 +1,55 @@
 h1{
-    color: orange;
+    color: red;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+h3{
+    font-family: Arial;
+    font-size: 14px;
+    text-indent: 20px;
+    font-weight: normal;
+    line-height: 4px;
+}
+h4{
+    font-family: Arial;
+    font-size: 13px;
+    text-indent: 5px;
+    font-weight: normal;
+    line-height: 2px;
+}
+h5 {
+    font-family: Arial;
+    font-size: 12px;
+    text-indent: 305px;
+    font-weight: normal;
+    line-height: 0px;
+    text-align: right;
 }
 p{
     color: #002d2d;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    text-decoration: light;
-    text-transform: capitalize;
+    text-indent: 20px;
     text-align: justify;
     width: 650px;
-    background-color: aquamarine;
+    line-height: 17px;
 }
 body{
+    size: A4;
     background-color: cornsilk;
 }
 a{
     color: rgb(211,232,312);
+}
+hr{
+    text-decoration-line: underline;
+}
+img{
+   margin-left: 20px;
+}
+table{
+    margin-top: -20px;
 }
