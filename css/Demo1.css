@@ -39,17 +39,30 @@ p{
 }
 body{
     size: A4;
-    background-color: cornsilk;
+    margin-left: 700px;
+    margin-right: 500px;
+    background-position: white 725px 10px;
 }
 a{
     color: rgb(211,232,312);
 }
 hr{
-    text-decoration-line: underline;
+    margin-right: 200px;
 }
 img{
    margin-left: 20px;
 }
 table{
-    margin-top: -20px;
+    font-family: Arial;
+    font-size: 13px;
+    text-indent: 5px;
+    font-weight: normal;
+    line-height: 2px;
+}
+td{
+    font-family: Arial;
+    font-size: 13px;
+    text-indent: 5px;
+    font-weight: normal;
+    line-height: 13px;
 }
