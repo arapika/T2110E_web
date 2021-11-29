@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labs6-Form</title>
+    <link rel="stylesheet" href="css/Labs6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+    <div id="body">
+        <p id="title" >Create task</p>
+        <form method="get" action="#">
+            <input class="body"  type="text" name="type" placeholder="   Type">
+            </br>
+            <select class="body company" name="company">
+                <option>Company</option>
+                <option value="fs">FSoft</option>
+                <option value="nvg">VNG</option>
+                <option value="grn">Garena</option>
+            </select>
+            </br>
+            <select class="body oppo" name="oppo">
+                <option>  Opportunity</option>
+                <option value="pr">Promote</option>
+                <option value="de">Demote</option>
+            </select>
+            </br>
+            <input class="body" type="text" name="taskname" placeholder="   Task name">
+            </br>
+            <input class="body" type="text" name="cc" placeholder="   CC">
+            </br>
+            <div class="request">
+                <p>Nature of Request</p>
+                <label class="request"><input type="checkbox" name="ads"/> Ads review</label></br>
+                <label class="request"><input type="checkbox" name="kw"/> Keywords review</label></br>
+                <label class="request"><input type="checkbox" name="ex"/> Extensions review</label>
+            </div>
+            <div class="status">
+                <p>Current reviewable status</p>
+                <label class="status"><input type="radio" name="apr" value="Approved"/> Approved </label></br>
+                <label class="status"><input type="radio" name="apr" value="Not approved"/> Not Approved </label>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
