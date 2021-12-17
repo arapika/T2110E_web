@@ -1,0 +1,58 @@
+#main{
+    width: 900px;
+    height: 850px;
+    overflow: hidden;
+    background-color: cornsilk;
+    margin: 0 auto;
+}
+#body{}
+.img{
+    width: 200px;
+    height: 380px;
+    max-width: 100%;
+    float: right;
+    position: relative;
+    margin: 10px 10px 5px 10px;
+}
+.s-img{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.p-info{
+    width: 200px;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+.text{
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+    text-align: center;
+}
+.p-name{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 450px;
+    text-transform: uppercase;
+}
+.price{
+    font-size: 14px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+.details{
+    font-family: Arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    top: 530px;
+}
